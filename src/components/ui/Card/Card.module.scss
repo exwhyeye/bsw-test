@@ -1,0 +1,10 @@
+@use "/src/styles/variables";
+
+.card {
+  display: flex;
+
+  padding: 10px;
+
+  border-radius: 10px;
+  background-color: variables.$card-color;
+}

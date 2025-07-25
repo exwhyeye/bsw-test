@@ -1,0 +1,22 @@
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  // Анимация вращения для вложенного svg или любого дочернего элемента с классом .loader__icon
+  &__icon {
+    animation: loader-spin 1s linear infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@keyframes loader-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

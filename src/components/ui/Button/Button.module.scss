@@ -1,0 +1,19 @@
+@use "/src/styles/variables";
+
+.button {
+  padding: 10px 20px 10px 20px;
+
+  background-color: variables.$accent-color;
+  border: none;
+
+  cursor: pointer;
+  transition: 0.25s;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  &:hover {
+    opacity: 0.8;
+    transition: 0.25s;
+  }
+}

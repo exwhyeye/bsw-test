@@ -1,0 +1,16 @@
+@use "/src/styles/variables";
+
+.search-panel {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px 20px;
+  gap: 4px;
+
+  flex-direction: column;
+
+  &__actions {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+}

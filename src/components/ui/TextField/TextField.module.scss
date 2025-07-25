@@ -1,0 +1,14 @@
+@use "/src/styles/variables";
+
+.text-field {
+  width: 100%;
+  height: 40px;
+
+  padding: 10px;
+
+  border: 1px solid variables.$stroke-color;
+  background: none;
+
+  outline: none;
+  color: white;
+}

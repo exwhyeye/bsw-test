@@ -1,0 +1,24 @@
+.games-panel {
+  display: flex;
+  flex-direction: column;
+
+  flex-grow: 1;
+  gap: 10px;
+
+  overflow: auto;
+  scroll-padding-left: 120px;
+
+  &__cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+
+    grid-gap: 20px;
+  }
+}
+
+.pragmatic-play {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+}
