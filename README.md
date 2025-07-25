@@ -1,6 +1,6 @@
 # BSW-TEST
 
-Ссылка на деплой: https://
+Ссылка на деплой: https://bsw-test.netlify.app/
 
 Сделано согласно ТЗ:
 
